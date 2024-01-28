@@ -1,11 +1,11 @@
 const numbers = [2, 22, 5, 55, 6, 66];
 console.log(numbers);
 
-numbers.push(7);
-numbers.push(77);
-numbers.push(8, 88, 100);
+numbers.unshift(7);
+numbers.unshift(77);
+numbers.unshift(8, 88, 100);
 console.log(numbers);
 
-numbers.pop();
-numbers.pop();
+numbers.shift();
+numbers.shift();
 console.log(numbers);
